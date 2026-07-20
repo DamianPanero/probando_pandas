@@ -25,8 +25,12 @@ pip install -r requeriments.txt
 uvicorn main:app --reload
 
 ### Estructura
+```
+
 ├── main.py            # endpoints y lógica principal
 ├── reactivos.csv      # datos de ejemplo
 ├── requirements.txt   # dependencias
 ├── Dockerfile
 └── docker-compose.yml
+
+```
