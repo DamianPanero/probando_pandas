@@ -1,3 +1,4 @@
+# API de reactivos - Pandas + FastAPI 
 **API REST para consulta y análisis de reactivos químicos. Procesa datos desde un archivo CSV usando Pandas y los expone como endpoints JSON**
 
 ### Tecnologías
@@ -17,13 +18,14 @@
 | GET | `/reactivos/ordenar` | Ordena por cantidad de mililitros
 
 ### Cómo correrlo
+```Bash
 <!-- clonar el repositorio -->
 git clone https://github.com/DamianPanero/probando_pandas
 <!-- crear entorno virtual e instalar dependencias -->
 pip install -r requeriments.txt
 <!-- correr la app -->
 uvicorn main:app --reload
-
+```
 ### Estructura
 ```
 
